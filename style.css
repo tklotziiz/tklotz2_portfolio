@@ -72,6 +72,7 @@ body {
 .container-projects-page {
   /* Projects Page */
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 10%;
   background: url(./assets/arizona_rain_projects.jpg) no-repeat;
@@ -98,6 +99,7 @@ body {
 .container-contact-page {
   /* Contact Page */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin-top: 10%;
   background: url(./assets/canyon_contact.jpg) no-repeat;
