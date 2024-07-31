@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10%;
-  background: url(./assets/saguaros-and-lake-1400x800.jpg) no-repeat;
+  background: url(./assets/saguaros_landing.jpg) no-repeat;
   background-size: cover;
   background-color: lightblue;
   background-repeat: no-repeat;
@@ -54,4 +54,56 @@ body {
   --bs-btn-disabled-border-color: #6c757d;
   --bs-gradient: none;
   text-shadow: rgb(0, 119, 255) 1px 0 10px;
+}
+
+.container-about-page {
+  /* About Page */
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background: url(./assets/grand_canyon_about.jpg) no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-projects-page {
+  /* Projects Page */
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background: url(./assets/arizona_rain_projects.jpg) no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-resume-page {
+  /* Resume Page */
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background: url(./assets/canyon_resume.jpg) no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-contact-page {
+  /* Contact Page */
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  background: url(./assets/canyon_contact.jpg) no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
 }
