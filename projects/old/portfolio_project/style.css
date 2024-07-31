@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10%; */
+  background-image: url(./assets/saguaros-and-lake-1400x800.jpg);
+  background-size: 125%;
+}
+
+.personal {
+  font-family: cursive;
+}
+
+.text-body-emphasis {
+  --bs-text-opacity: 1;
+  color: #e9ecef !important;
+}
+
+p {
+  --bs-text-opacity: 1;
+  color: #e9ecef !important;
+}
