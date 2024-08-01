@@ -82,7 +82,7 @@ body {
   --bs-nav-pills-link-active-bg: rgb(204, 149, 68);
   --bs-nav-link-color: rgb(204, 149, 68);
   --bs-nav-link-hover-color: rgb(96, 54, 1);
-  text-shadow: black 1px 0 10px;
+  text-shadow: black 1px 0 5px;
   font-size: x-large;
 }
 
@@ -110,7 +110,7 @@ body {
   background-color: rgb(204, 149, 68);
   background-repeat: no-repeat;
   width: 100vw;
-  height: 250vh;
+  height: 200vh;
 }
 
 .container-resume-page {
@@ -120,17 +120,17 @@ body {
   /* margin-top: 10%; */
   background: url(./assets/canyon_resume.jpg) no-repeat;
   background-size: cover;
-  background-color: lightblue;
+  background-color: black;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
 }
 
 .container-contact-page {
   /* Contact Page */
-  display: flex;
+  /* display: flex; */
   /* flex-direction: column; */
-  justify-content: center;
+  /* justify-content: center; */
   /* margin-top: 10%; */
   background: url(./assets/canyon_contact.jpg) no-repeat;
   background-size: cover;
@@ -145,6 +145,11 @@ body {
   color: #e9ecef !important;
 }
 
+.mb-4 {
+  /* project page */
+  margin-bottom: 5.5rem !important;
+}
+
 .project_box_text {
   margin: 0;
   /* font-family: var(--bs-body-font-family); */
@@ -155,4 +160,54 @@ body {
   /* text-align: var(--bs-body-text-align); */
   /* background-color: var(--bs-body-bg); */
   text-shadow: rgb(0, 119, 255) 1px 0 10px;
+}
+
+.modal_bod {
+  /* Contact Page */
+  text-shadow: rgb(0, 119, 255) 1px 0 10px;
+  color: #e9ecef !important;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.modal-dialog {
+  padding-right: calc(var(--bs-gutter-x) * 6);
+  padding-left: calc(var(--bs-gutter-x) * 6);
+}
+
+.modal_align {
+  /* About me */
+  justify-content: left;
+  margin-left: 200px;
+}
+
+.about_me_txt {
+  text-shadow: rgb(0, 119, 255) 1px 0 10px;
+  color: #e9ecef !important;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.bg-body {
+  /* About me */
+  --bs-bg-opacity: 0;
+  background-color: rgba(
+    var(--bs-body-bg-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
+  margin-bottom: 2rem;
+}
+
+.carousel_size {
+  /* About me */
+  margin-bottom: 100px;
+}
+
+.carousel_pic_size > img {
+  height: 700px;
+}
+
+.resume_text {
+  text-shadow: rgb(0, 2, 5) 1px 0 3px;
+  color: rgb(204, 149, 68);
 }
