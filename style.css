@@ -56,11 +56,41 @@ body {
   text-shadow: rgb(0, 119, 255) 1px 0 10px;
 }
 
+.btn-primary {
+  /* Project Page */
+  --bs-btn-color: white;
+  --bs-btn-border-color: rgb(204, 149, 68);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: rgb(204, 149, 68);
+  --bs-btn-hover-border-color: #6c757d;
+  --bs-btn-focus-shadow-rgb: 108, 117, 125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: rgb(96, 54, 1);
+  --bs-btn-active-border-color: rgb(96, 54, 1);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6c757d;
+  --bs-gradient: none;
+  text-shadow: rgb(0, 119, 255) 1px 0 10px;
+  background-color: transparent;
+}
+
+.nav-pills {
+  /* Header */
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg: rgb(204, 149, 68);
+  --bs-nav-link-color: rgb(204, 149, 68);
+  --bs-nav-link-hover-color: rgb(96, 54, 1);
+  text-shadow: black 1px 0 10px;
+  font-size: x-large;
+}
+
 .container-about-page {
   /* About Page */
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* margin-top: 10%; */
   background: url(./assets/grand_canyon_about.jpg) no-repeat;
   background-size: cover;
   background-color: lightblue;
@@ -71,23 +101,23 @@ body {
 
 .container-projects-page {
   /* Projects Page */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 10%;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: left; */
+  /* margin-top: 0; */
   background: url(./assets/arizona_rain_projects.jpg) no-repeat;
   background-size: cover;
-  background-color: lightblue;
+  background-color: rgb(204, 149, 68);
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 250vh;
 }
 
 .container-resume-page {
   /* Resume Page */
-  display: flex;
-  justify-content: center;
-  margin-top: 10%;
+  /* display: flex; */
+  /* justify-content: left; */
+  /* margin-top: 10%; */
   background: url(./assets/canyon_resume.jpg) no-repeat;
   background-size: cover;
   background-color: lightblue;
@@ -99,13 +129,30 @@ body {
 .container-contact-page {
   /* Contact Page */
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   background: url(./assets/canyon_contact.jpg) no-repeat;
   background-size: cover;
   background-color: lightblue;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+}
+
+.project_h1 {
+  text-shadow: rgb(0, 119, 255) 1px 0 10px;
+  color: #e9ecef !important;
+}
+
+.project_box_text {
+  margin: 0;
+  /* font-family: var(--bs-body-font-family); */
+  /* font-size: var(--bs-body-font-size); */
+  /* font-weight: var(--bs-body-font-weight); */
+  /* line-height: var(--bs-body-line-height); */
+  color: #e9ecef !important;
+  /* text-align: var(--bs-body-text-align); */
+  /* background-color: var(--bs-body-bg); */
+  text-shadow: rgb(0, 119, 255) 1px 0 10px;
 }
