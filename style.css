@@ -195,7 +195,7 @@ body {
     var(--bs-body-bg-rgb),
     var(--bs-bg-opacity)
   ) !important;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .carousel_size {
@@ -204,7 +204,7 @@ body {
 }
 
 .carousel_pic_size > img {
-  height: 700px;
+  height: 900px;
 }
 
 .resume_text {
