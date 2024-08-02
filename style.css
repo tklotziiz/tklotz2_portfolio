@@ -110,7 +110,7 @@ body {
   background-color: rgb(204, 149, 68);
   background-repeat: no-repeat;
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
 }
 
 .container-resume-page {
@@ -123,7 +123,7 @@ body {
   background-color: black;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 200vh;
+  height: 100vh;
 }
 
 .container-contact-page {
@@ -168,17 +168,22 @@ body {
   color: #e9ecef !important;
   font-size: xx-large;
   font-weight: bolder;
+  margin-left: 10px;
 }
 
 .modal-dialog {
-  padding-right: calc(var(--bs-gutter-x) * 6);
-  padding-left: calc(var(--bs-gutter-x) * 6);
+  padding-right: calc(var(--bs-gutter-x) * 1);
+  padding-left: calc(var(--bs-gutter-x) * 1);
+}
+
+.modal_container_size {
+  width: 50%;
 }
 
 .modal_align {
   /* About me */
   justify-content: left;
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
 
 .about_me_txt {
@@ -200,14 +205,38 @@ body {
 
 .carousel_size {
   /* About me */
-  margin-bottom: 100px;
+  margin-top: 100px;
+  max-width: 600px;
 }
 
-.carousel_pic_size > img {
-  height: 900px;
+.carousel_pic_size {
+  height: auto;
+  width: 600px;
 }
 
 .resume_text {
+  margin-top: 100px;
   text-shadow: rgb(0, 2, 5) 1px 0 3px;
   color: rgb(204, 149, 68);
+}
+
+.no_scroll {
+  overflow: hidden;
+}
+
+.overlay_scroll {
+  position: fixed;
+  overflow-y: scroll;
+  inset: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* width: 0; */
+}
+
+.project_margin_scroll {
+  margin-top: 100px;
+}
+
+.modal-body {
+  max-width: 400px;
 }
