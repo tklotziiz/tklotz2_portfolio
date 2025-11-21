@@ -261,7 +261,10 @@ body {
 .resume_text a {
   transition: color 0.3s ease;
   text-decoration: underline !important;
-  cursor: pointer;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  z-index: 10;
+  position: relative;
 }
 
 .resume_text a:hover {
