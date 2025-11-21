@@ -288,13 +288,41 @@ body {
 
 /* Print styles for PDF */
 @media print {
+  @page {
+    margin: 0.5in;
+    size: letter;
+  }
+  
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
   .container-resume-page {
     background: white !important;
+    height: auto !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+  
+  .no_scroll {
+    overflow: visible !important;
   }
   
   .resume_text {
     color: black !important;
     text-shadow: none !important;
+    margin-top: 0 !important;
+    position: static !important;
+    overflow: visible !important;
+    height: auto !important;
+    width: 100% !important;
+    page-break-inside: avoid;
   }
   
   .resume_text a {
@@ -303,16 +331,37 @@ body {
   }
   
   .overlay_scroll {
-    position: static;
-    overflow: visible;
+    position: static !important;
+    overflow: visible !important;
+    height: auto !important;
+    inset: auto !important;
   }
   
   header {
-    display: none;
+    display: none !important;
   }
   
   a[onclick*="print"] {
-    display: none;
+    display: none !important;
+  }
+  
+  /* Prevent page breaks inside important sections */
+  h2, h3, h4 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  
+  ul, ol {
+    page-break-inside: avoid;
+  }
+  
+  li {
+    page-break-inside: avoid;
+  }
+  
+  /* Allow page breaks between major sections */
+  hr {
+    page-break-after: always;
   }
 }
 
