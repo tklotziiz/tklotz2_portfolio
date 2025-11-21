@@ -260,11 +260,14 @@ body {
 /* Resume improvements */
 .resume_text a {
   transition: color 0.3s ease;
+  text-decoration: underline !important;
+  cursor: pointer;
 }
 
 .resume_text a:hover {
   color: #fff !important;
   text-shadow: rgb(0, 119, 255) 1px 0 5px;
+  text-decoration: underline !important;
 }
 
 .resume_text h2 {
