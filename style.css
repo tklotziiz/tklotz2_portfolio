@@ -218,6 +218,15 @@ body {
   width: 600px;
 }
 
+.carousel-image {
+  height: auto;
+  max-height: 500px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .resume_text {
   margin-top: 100px;
   text-shadow: rgb(0, 2, 5) 1px 0 3px;
