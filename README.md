@@ -6,7 +6,7 @@ Welcome to my digital playground! This is where I showcase my projects, share my
 
 ## 🌐 Live Site
 
-Check it out live on [GitHub Pages](https://tklotz2.github.io/tklotz2_portfolio-main/) (or wherever you've deployed it - GitHub Pages is pretty cool like that).
+Check it out live on [GitHub Pages](https://tklotziiz.github.io/tklotz2_portfolio/)!
 
 ## 📁 What's Inside
 
