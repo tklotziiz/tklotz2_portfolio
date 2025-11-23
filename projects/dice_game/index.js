@@ -12,13 +12,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Dice 1
     const dice1 = document.querySelector(".img1");
     if (dice1) {
-      dice1.setAttribute("src", `./images/dice${randomNumber1}.png`);
+      const newSrc = `./images/dice${randomNumber1}.png`;
+      dice1.src = newSrc;
+      console.log("Updated dice1 to:", newSrc);
     }
 
     // Dice 2
     const dice2 = document.querySelector(".img2");
     if (dice2) {
-      dice2.setAttribute("src", `./images/dice${randomNumber2}.png`);
+      const newSrc = `./images/dice${randomNumber2}.png`;
+      dice2.src = newSrc;
+      console.log("Updated dice2 to:", newSrc);
     }
 
     // Display winner or draw
@@ -40,18 +44,26 @@ document.addEventListener("DOMContentLoaded", function() {
   // Player 1 button click
   const player1Btn = document.getElementById("player1Btn");
   if (player1Btn) {
-    player1Btn.addEventListener("click", function() {
+    player1Btn.addEventListener("click", function(e) {
+      e.preventDefault();
       randomNumber1 = randomNum();
+      console.log("Player 1 rolled:", randomNumber1);
       updateDice();
     });
+  } else {
+    console.error("Player 1 button not found!");
   }
 
   // Player 2 button click
   const player2Btn = document.getElementById("player2Btn");
   if (player2Btn) {
-    player2Btn.addEventListener("click", function() {
+    player2Btn.addEventListener("click", function(e) {
+      e.preventDefault();
       randomNumber2 = randomNum();
+      console.log("Player 2 rolled:", randomNumber2);
       updateDice();
     });
+  } else {
+    console.error("Player 2 button not found!");
   }
 });
