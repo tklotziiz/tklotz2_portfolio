@@ -32,6 +32,29 @@ img {
   width: 80%;
 }
 
+.roll-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  font-family: "Indie Flower", cursive;
+  background-color: #4ecca3;
+  color: #232931;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.roll-btn:hover {
+  background-color: #3aa88a;
+  transform: scale(1.05);
+}
+
+.roll-btn:active {
+  transform: scale(0.95);
+}
+
 footer {
   margin-top: 5%;
   color: #eeeeee;
