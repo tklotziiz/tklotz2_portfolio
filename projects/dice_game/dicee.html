@@ -12,17 +12,17 @@
             <div class="dice">
                 <p>Player 1</p>
                 <img class="img1" src="./images/dice6.png">
-                <button type="button" class="roll-btn" id="player1Btn">Roll Dice</button>
+                <button type="button" class="roll-btn" id="player1Btn" onclick="rollPlayer1()">Roll Dice</button>
             </div>
             <div class="dice">
                 <p>Player 2</p>
                 <img class="img2" src="./images/dice6.png">
-                <button type="button" class="roll-btn" id="player2Btn">Roll Dice</button>
+                <button type="button" class="roll-btn" id="player2Btn" onclick="rollPlayer2()">Roll Dice</button>
             </div>
         </div>
         <footer>
             <a class="main_url" href="https://tklotziiz.github.io/tklotz2_portfolio/">https://tklotziiz.github.io/tklotz2_portfolio/</a>
         </footer>
-        <script src="./index.js"></script>
+        <script src="./index.js" onerror="console.error('Failed to load index.js')"></script>
     </body>
 </html>
