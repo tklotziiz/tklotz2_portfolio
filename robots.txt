@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tklotziiz.github.io/tklotz2_portfolio/sitemap.xml
+
+

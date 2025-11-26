@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .container-landing-page {
   /* Landing Page */
   display: flex;
@@ -280,6 +284,24 @@ body {
   color: #fff !important;
   text-shadow: rgb(0, 119, 255) 1px 0 5px;
   text-decoration: underline !important;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #e9ecef;
+  padding: 10px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  background-color: rgb(204, 149, 68);
+  color: #fff;
 }
 
 .resume_text h2 {
